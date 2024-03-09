@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health food</title>
+
+    <style>
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        nav img{
+            width: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            padding-right: 50px;
+            color: #000;
+        }
+        nav a:hover{
+            color: #00f884;
+            font-weight: bold;
+        }
+        nav button{
+            margin-left: 60%;
+            padding: 10px 0px;
+            border: 0;
+            border-radius: 5px;
+            background-color: #0fdb6b;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text-section{
+            padding: 0px 50px;
+        }
+        .text-section h1{
+            font-size: 40px;
+        }
+        .text-section p{
+            color: #4c665d;
+        }
+        .image-section{
+        background-color: yellow;
+        height: 100%;
+        max-height: 90vh;
+        }
+        .text-section button{
+            padding: 10px 50px;
+            border: 0;
+            background-color: #000;
+            color: #fff;
+            margin-top: 30px;
+            font-size: large;
+        }
+        .image-section img{
+            width: 70%;
+            height: 100%;
+        }
+
+        .section-3{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #301e12;
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .sub-section{
+            margin: 10px 50px;
+            text-align: center;
+        }
+        .sub-section img{
+            width: 150px;
+        }
+        .sub-section h1{
+            color: #fff;
+        }
+        .sub-section p{
+           color: #a78465;
+        }
+        .sub-section1{
+            margin-top: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./pngtree-healthy-food-logo-design-.png">
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="text-section">
+            <h1>Helathy food</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi eum reprehenderit deleniti eligendi. Dicta voluptate laborum deleniti nulla! Voluptas optio possimus suscipit dolores ab aspernatur veritatis, iste, nemo, laboriosam sint sequi dicta ullam est totam modi provident eveniet voluptates rem praesentium! Omnis aliquid quam eaque sequi reiciendis autem nesciunt laudantium esse libero natus recusandae, ipsam officiis temporibus voluptatum accusamus sit tempora accusantium consequatur alias consectetur officia molestiae maxime impedit corporis. Doloremque praesentium id eligendi a?</p>
+        <button>Read More</button>
+        </section>
+
+        <section class="image-section">
+            <img src="./food-img.jpg" >
+        </section>
+    </div>
+
+
+    
+
+    <section class="section-3">
+        <div class="sub-section">
+            <img src="./order.webp">
+            <h1>No Minimum order</h1>
+            <p>
+                Order in for yourself or for the group, with no restrictions on order value
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="./order location.webp">
+            <h1>Live order Tracking</h1>
+            <p>
+                Know where your order is at all times, from the restaurant to your doorstep
+            </p>
+        </div>
+        <div class="sub-section">
+            <img src="./order del.webp">
+            <h1 class="sub-section1">Lightning-Fast Devlivery</h1>
+            <p>
+               Experience Swiggy's superfast Devlivery for food delivered frsh & on time
+            </p>
+        </div>
+    </section>
+    
+</body>
+</html>
